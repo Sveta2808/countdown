@@ -1,6 +1,5 @@
 const myAwesomeArray = [5, 4, 3, 2, 1]
 
-let mapped = myAwesomeArray.Math.paw(2) 
-
+let mapped = myAwesomeArray.map(x => x * x)
 
 console.log(mapped)
